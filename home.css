@@ -1,0 +1,9 @@
+.mainImage {
+    /* border-bottom: 7px solid rgba(0, 0, 0, 0.18);
+    border-right: 7px solid rgba(0, 0, 0, 0.18); */
+    border-radius: 50px;
+    box-shadow: 17px 16px 17px -6px rgba(0, 0, 0, 0.32);
+}
+.text101 {
+    padding-bottom: 50px;
+}
