@@ -1,17 +1,11 @@
-// Initialize and add the map
-function initMap() {
-    // Location coordinates
-    const location = { lat: 40.712776, lng: -74.005974 };
+var map = L.map("map").setView([45.35287, -75.65414], 17);
 
-    // Create a map centered at the specified location
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
-        center: location,
-    });
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
 
-    // Add a marker at the specified location
-    const marker = new google.maps.Marker({
-        position: location,
-        map: map,
-    });
-}
+L.marker([45.35287, -75.65414])
+    .addTo(map)
+    .bindPopup("Crown Dentistry")
+    .openPopup();

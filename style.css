@@ -57,7 +57,23 @@ body {
     text-align: center;
 }
 
+/* Center the cards */
+.center-cards {
+    display: flex;
+    justify-content: center;
+}
+.address {
+    text-indent: 80px;
+}
+
+/* Additional styles */
+
+.card {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
 #map {
-    height: 400px;
-    width: 100%;
+    height: 500px;
+    width: 600px;
 }

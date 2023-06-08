@@ -3,22 +3,40 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dentistry Website</title>
+        <title>Dentistry Website - Contact</title>
+        <link rel="icon" type="image/x-icon" href="logo.png" />
         <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         />
         <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css"
+        />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Dentistry Website</a>
+                <a class="navbar-brand" href="home.html">
+                    <img
+                        src="logo.png"
+                        width="30"
+                        height="30"
+                        class="d-inline-block align-top"
+                        alt="Dentistry Website's logo"
+                    />
+                    Dentistry Website
+                </a>
                 <button
                     class="navbar-toggler"
                     type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
                     aria-controls="navbarNav"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
@@ -44,9 +62,6 @@
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="appointment.html"
                                 >Book an Appointment</a
                             >
@@ -58,12 +73,33 @@
 
         <section id="home" class="section">
             <div class="container">
-                <h1>Welcome to Dentistry Website</h1>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 style="font-size: 70px">
+                            <strong>Unlock the Radiance of Your Smile</strong>
+                        </h1>
+                        <h1>Where Your Dental Wellness Takes Center Stage!</h1>
+                        <img
+                            src="website photos/5 Start.png"
+                            alt="5 start ratings"
+                        />
+                        <small>Trusted by over than 1M customers</small>
+                    </div>
+                    <div class="col-lg-6">
+                        <img
+                            src="your_image.png"
+                            alt="Your Image"
+                            class="img-fluid rounded shadow"
+                        />
+                    </div>
+                </div>
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="container">
+        <section class="section"></section>
+
+        <footer class="footer bg-dark text-light py-3">
+            <div class="container text-center">
                 <p>&copy; 2023 Dentistry Website. All rights reserved.</p>
             </div>
         </footer>
